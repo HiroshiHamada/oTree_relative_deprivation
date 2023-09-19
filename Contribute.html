@@ -1,0 +1,37 @@
+{{ extends "global/Page.html" }}
+{{ block title }}Contribute{{ endblock }}
+{{ block content }}
+
+    <p>
+        You can choose "invest" or "not invest".
+    </p>
+
+    <p>
+        {{group.n}} players among those who invest will get a profit.
+    </p>
+
+ <p>
+     You will get 
+ <ul>
+     <strong>
+     {{group.PROFIT}}, when you win.</strong>
+<comment></comment>
+
+ </ul>
+ <ul>
+     <strong>- 100 , when you lose.</strong>
+ </ul>
+ <ul>
+     <strong>0 , when you do not invest.</strong>
+ </ul>
+
+
+    {{ formfields }}
+
+    {{ next_button }}
+
+{{ endblock }}
+
+
+
+
