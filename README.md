@@ -7,6 +7,14 @@ These are oTree treatments for the experiment of relative deprivation
 
 # 内容
 
+`__init__.py`
+クラスと関数を定義したコードです．
+
+`Contribute.html`
+被験者への条件提示および被験者の選択を入力する画面です
+
+`esults.html`
+被験者への結果表示および被験者の主観的満足度を入力する画面です
 
 
 
